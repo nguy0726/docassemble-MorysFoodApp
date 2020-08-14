@@ -1,0 +1,30 @@
+#Graphics
+---
+default screen parts:
+  post: |
+    <div style="display: flex; height: 200px; align-items: flex-end; flex-direction: row-reverse">
+    <div style="margin: 5px"><img src="https://media1.giphy.com/media/3o7TKKFRj4mQDFZYhG/source.gif" height="100">
+    </div>
+    <div style="margin: 5px; text-align: center">
+    <cite><small><i>
+    I shoulda been Blac Chyna
+    </i></small></cite>
+    </div>
+    </div>
+---
+image sets:
+  docassemble:
+    attribution: |
+      This is the image attribution.
+    images:
+      star: star.svg
+---
+objects:
+  - endpoint: DADict
+  - SACATlogo: DAStaticFile.using(filename='http://www.pngmart.com/files/4/Haikyuu-PNG-Clipart.png')
+---
+features:
+  css: SACAT.css
+  debug: false
+  hide standard menu: False
+---

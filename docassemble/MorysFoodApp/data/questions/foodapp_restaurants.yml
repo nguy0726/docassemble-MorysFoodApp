@@ -1,0 +1,1687 @@
+#List of restaurants
+---
+#Restaurant dictionary
+variable name: MNrestaurantdict
+use objects: True
+data:
+  RL001:
+    restaurant: Hoosegow
+    address: 419 Magill Rd, St Morris SA 5068
+    rest_type: 
+      - MNdinner
+    food_type: 
+      - MNsteakdinner
+      - MNrecommendeddinner
+    number: 8332 6599
+    website: http://www.hoosegow.com.au/
+    bookings: true
+    price: 
+      - MNbudgethigh
+      - MNbudgetyolo
+    description: Best steak restaurant in Adelaide. Has other stuff too.
+  RL002:
+    restaurant: Long Lost Friend
+    address: 523 Magill Rd, Magill SA 5072
+    rest_type: 
+      - MNbreakfast
+      - MNbrunch
+      - MNlunch
+      - MNdrinks
+    food_type: 
+      - MNinstabrunch
+      - MNbasiclunch
+      - MNcoffee
+    number: 8331 0847
+    website: https://www.longlostfriend.net/
+    bookings: false
+    price:
+      - MNbudgetmid
+      - MNbudgetyolo
+    description: Really good brunch place. Curated menu that doesn't change and specialises in coffee too.
+  RL003:
+    restaurant: Hanson Pizza
+    address: 169a Hanson Rd, Woodville North SA 5012
+    rest_type: 
+      - MNlunch
+      - MNdinner
+    food_type: 
+      - MNitaliandinner
+      - MNtakeawaydinner
+      - MNbigdinmenu
+      - MNpubdinner
+      - MNsteakdinner
+      - MNpizzadinner
+    number: 8445 2423
+    website: https://www.menulog.com.au/restaurants-hanson-pizza-and-pasta-bar/menu
+    bookings: false
+    price: 
+      - MNbudgetlow
+      - MNbudgetmid
+      - MNbudgetyolo
+    description: Offers take-away and dine-in pub style food. Huge menu and huge servings. Average food.
+  RL004:
+    restaurant: Central Asian Uyghur Food
+    address: 587 Magill Rd, Magill SA 5072
+    rest_type: 
+      - MNdinner
+    food_type: 
+      - MNchinesedinner
+      - MNrecommendeddinner
+      - MNtakeawaydinner
+      - MNsharedinner
+    number: 0451 772 977
+    website: https://www.zmenu.com/central-asian-uyghur-food-magill-2-online-menu/
+    bookings: false
+    price: 
+      - MNbudgetmid
+      - MNbudgetyolo
+    description: Comfort food. We recommend a main/large dish and 6 skewers between two ($50approx). Skewers are some of the best in Adelaide ($3ea). 
+  RL005:
+    restaurant: McDonald's
+    address: google it lmao
+    rest_type: 
+      - MNbreakfast
+      - MNlunch
+      - MNdinner
+      - MNdessert
+      - MNdrinks
+    food_type: 
+      - MNbasicbrekkie
+      - MNcheapbrekkie
+      - MNfastfoodlunch
+      - MNfastfooddinner
+      - MNtakeawaydinner
+      - MNdiffdrinks
+      - MNcoffee
+      - MNicecream
+      - MNfastfooddessert
+    number: google it
+    website: https://mcdonalds.com.au/menu
+    bookings: false
+    price: 
+      - MNbudgetlow
+      - MNbudgetyolo
+    description: It's literally McDonald's.
+  RL006:
+    restaurant: KFC
+    address: google
+    rest_type: 
+      - MNlunch
+      - MNdinner
+    food_type: 
+      - MNfastfoodlunch
+      - MNfastfooddinner
+      - MNtakeawaydinner
+    number: google
+    website: https://www.kfc.com.au/one
+    bookings: false
+    price: 
+      - MNbudgetlow
+      - MNbudgetyolo
+    description: Kentucky Fried Chiggen.
+  RL007:
+    restaurant: Hungry Jacks
+    address:
+    rest_type: 
+      - MNbreakfast
+      - MNlunch
+      - MNdinner
+      - MNdessert
+      - MNdrinks
+    food_type: 
+      - MNbasicbrekkie
+      - MNcheapbrekkie
+      - MNfastfoodlunch
+      - MNfastfooddinner
+      - MNtakeawaydinner
+      - MNdiffdrinks
+      - MNicecream
+      - MNfastfooddessert
+    number: google
+    website: https://www.hungryjacks.com.au/menu/what-s-new
+    bookings: false
+    price: 
+      - MNbudgetlow
+      - MNbudgetyolo
+    description: HJ's.
+  RL008:
+    restaurant: San Churro
+    address: West Lakes, Rundle Street
+    rest_type: 
+      - MNdessert
+      - MNdrinks
+    food_type: 
+      - MNinstadessert
+      - MNicecream
+      - MNcoffee
+      - MNdiffdrinks
+      - MNinstadrinks
+      - MNbasicdessert
+    number: google
+    website: https://www.sanchurro.com/menu/
+    bookings: false
+    price: 
+      - MNbudgetlow
+      - MNbudgetyolo
+    description: Dessert place specialising in churros but has heaps of other stuff. Also does shakes, hot drinks, etc.
+  RL009:
+    restaurant: 360 Gradi
+    address: 405 Magill Rd, St Morris SA 5068
+    rest_type: 
+      - MNdinner
+    food_type: 
+      - MNitaliandinner
+      - MNpizzadinner
+      - MNsharedinner
+      - MNtakeawaydinner
+    number: 8332 4114
+    website: https://www.360gradicafe.com/menu
+    bookings: false
+    price: 
+      - MNbudgetmid
+      - MNbudgetyolo
+    description: Gourmet pizzas. They're thin and floppy though. I love the pear and balsamic one. Also do pasta etc. 
+  RL010:
+    restaurant: Ryo's Noodles
+    address: 80 Gouger St, Adelaide SA 5000
+    rest_type: 
+      - MNdinner
+      - MNlunch
+    food_type: 
+      - MNjapaneselunch
+      - MNjapanesedinner
+    number: 8410 0752
+    website: https://www.ryosnoodles.com.au/
+    bookings: false
+    price: 
+      - MNbudgetlow
+      - MNbudgetyolo
+    description: Most accessible ramen in Adelaide. Great karaage. Their broth is super fatty and can get sickening though but it's my go-to ramen place.
+  RL011:
+    restaurant: Amigo's Pizzeria
+    address: 568c Magill Rd, Magill SA 5072
+    rest_type: 
+      - MNlunch
+      - MNdinner 
+      - MNdessert
+      - MNdrinks
+    food_type: 
+      - MNbigdinmenu
+      - MNtakeawaydinner
+      - MNpizzadinner
+      - MNitaliandinner
+      - MNpubdinner
+      - MNbasiclunch
+      - MNitalianlunch
+      - MNbasicdessert
+    number: 8333 0233
+    website: amigospizzeria.com.au
+    bookings: false
+    price: 
+      - MNbudgetlow
+      - MNbudgetmid
+      - MNbudgetyolo
+    description: Take-away restaurant with HUGE menu. Food quality is bad. Not a lot of seating so take-away recommended.
+  RL012:
+    restaurant: Argo on the Parade
+    address: 212 The Parade, Norwood SA 5067
+    rest_type: 
+      - MNbreakfast
+      - MNbrunch
+      - MNlunch
+      - MNdrinks
+    food_type: 
+      - MNbasicbrekkie
+      - MNvarietybrekkie
+      - MNinstabrekkie
+      - MNbasicbrunch
+      - MNvarietybrunch
+      - MNinstabrunch
+      - MNbasiclunch
+      - MNcoffee
+      - MNdiffdrinks
+      - MNinstadrinks
+    number: 8431 1387
+    website: https://www.argo.love/
+    bookings: true
+    price: 
+      - MNbudgetlow
+      - MNbudgetyolo
+    description: Always busy. Big menu. Drinks are kind of expensive.
+  RL013:
+    restaurant: Commissary Rose Park
+    address: 160 Fullarton Rd, Rose Park SA 5067
+    rest_type: 
+      - MNbreakfast
+      - MNbrunch
+      - MNdrinks
+    food_type: 
+      - MNinstabrekkie
+      - MNinstabrunch
+      - MNbasicbrunch
+      - MNcoffee
+      - MNinstadrinks
+      - MNdiffdrinks
+    number: 7226 9147
+    website: https://www.facebook.com/Commissary-285861011779821/
+    bookings: true
+    price: 
+      - MNbudgetlow
+      - MNbudgetmid
+      - MNbudgetyolo
+    description: Food is super well presented and great lighting makes food super insta-worthy. The chicken and waffles are pretty good.
+  RL014:
+    restaurant: Papparich
+    address: 116/116A Gouger St, Adelaide SA 5000
+    rest_type: 
+      - MNlunch
+      - MNdinner
+      - MNdrinks
+    food_type: 
+      - MNmalaysinglunch
+      - MNmalaysingdinner
+      - MNdiffdrinks
+      - MNcoffee
+      - MNinstadrinks
+    number: 7225 9991
+    website: https://www.papparich.net.au/menu
+    bookings: false
+    price: 
+      - MNbudgetlow
+      - MNbudgetyolo
+    description: Basic home-made food. Quality is not always there but it's pretty decent at a decent price-point. Their drinks are sooooooooo good.
+  RL015:
+    restaurant: Domino's
+    address: google
+    rest_type: 
+      - MNlunch
+      - MNdinner
+    food_type: 
+      - MNitalianlunch
+      - MNfastfoodlunch
+      - MNfastfooddinner
+      - MNpizzadinner
+    number: google
+    website: https://www.dominos.com.au/
+    bookings: false
+    price: 
+      - MNbudgetlow
+      - MNbudgetyolo
+    description: Dominos. Order online with vouchers. Their shakes are really good.
+  RL016:
+    restaurant: Killer Tomato
+    address: 5/94-96 Gorge Rd, Newton SA 5074
+    rest_type: 
+      - MNdinner
+    food_type: 
+      - MNpizzadinner
+      - MNpubdinner
+      - MNsharedinner
+      - MNtakeawaydinner
+    number: 8365 8151
+    website: https://www.thekillertomato.com.au/menu
+    bookings: false
+    price: 
+      - MNbudgetlow
+      - MNbudgetmid
+      - MNbudgetyolo
+    description: Order using the app since they have a good loyalty system. Take-away only. Their gravy is sooooo good.
+  RL017:
+    restaurant: Mr Bulgogi
+    address: Mawson Lakes and Magill
+    rest_type: 
+      - MNlunch
+      - MNdinner
+    food_type: 
+      - MNkoreanlunch
+      - MNkoreandinner
+      - MNsharedinner
+    number: 8359 1121 (Mawson), 8331 7993 (Magill)
+    website: https://www.menulog.com.au/restaurants-mr-bulgogi-korean-restaurant-st-morris/menu
+    bookings: false
+    price: 
+      - MNbudgetlow
+      - MNbudgetyolo
+    description: Best korean fried chicken. Has a good lunch special too.
+  RL018:
+    restaurant: 5 Stones
+    address: 542 Hazelwood Park, SA 5066
+    rest_type: 
+      - MNlunch
+      - MNdinner
+    food_type: 
+      - MNmalaysinglunch
+      - MNmalaysingdinner
+      - MNtakeawaydinner
+      - MNsharedinner
+    number: 0431 882 777
+    website: https://www.5stones.com.au/menu
+    bookings: false
+    price: 
+      - MNbudgetlow
+      - MNbudgetyolo
+    description: The Hor Fun is really good and so are the chicken wings!!
+  RL019:
+    restaurant: Lucky Lupitas
+    address: 1/163-169 O'Connell St, North Adelaide SA 5006
+    rest_type: 
+      - MNdinner
+    food_type: 
+      - MNmexicandinner
+      - MNbigdinmenu
+      - MNsharedinner
+    number: 0458 882 605
+    website: https://www.luckylupitas.com/
+    bookings: false
+    price: 
+      - MNbudgetmid
+      - MNbudgetyolo
+    description: Mexican food. I recommend getting a few tacos each and getting everything else to share. Bomb ceviche.
+  RL020:
+    restaurant: Sushi Train
+    address: google
+    rest_type: 
+      - MNlunch
+      - MNdinner
+    food_type: 
+      - MNjapaneselunch
+      - MNfastfoodlunch
+      - MNjapanesedinner
+      - MNtakeawaydinner
+    number: google
+    website: http://www.sushitrain.com.au/menu/
+    bookings: false
+    price: 
+      - MNbudgetlow
+      - MNbudgetmid
+      - MNbudgetyolo
+    description: Quick to-go sushi. Can get pretty expensive if you want to actually be full JUST on sushi. If you're on a budget, I suggest a noodle dish and then some sushi on the side.
+  RL021:
+    restaurant: Kintaro
+    address: google
+    rest_type: 
+      - MNlunch
+      - MNdinner
+    food_type: 
+      - MNjapaneselunch
+      - MNfastfoodlunch
+      - MNjapanesedinner
+      - MNtakeawaydinner
+    number: google
+    website: https://kintarosushi.com.au/
+    bookings: false
+    price: 
+      - MNbudgetlow
+      - MNbudgetmid
+      - MNbudgetyolo
+      - MNbudgetyolo
+    description: Honestly the bad version of sushi train. Rice kinda sucks and falls apart.
+  RL022:
+    restaurant: Brunelli's
+    address: 187 Rundle St, Adelaide SA 5000 (2 other locations)
+    rest_type: 
+      - MNlunch
+      - MNdinner
+      - MNdrinks
+    food_type: 
+      - MNitalianlunch
+      - MNbasiclunch
+      - MNitaliandinner
+      - MNpubdinner
+      - MNpizzadinner
+      - MNbigdinmenu
+    number: 8223 2221 (City)
+    website: http://cafebrunelli.com.au/menu/
+    bookings: false
+    price: 
+      - MNbudgetlow
+      - MNbudgetmid
+      - MNbudgetyolo
+    description: Their happy hour special is $5 base spirits. Huge servings, average food.
+  RL023:
+    restaurant: Pancakes at the Port
+    address: 1 Mercantile Dock, Port Adelaide SA 5015
+    rest_type: 
+      - MNbreakfast
+      - MNbrunch
+    food_type: 
+      - MNbasicbrekkie
+      - MNbasicbrunch
+    number: 8447 1877
+    website: https://pancakesattheport.com.au/
+    bookings: false
+    price: 
+      - MNbudgetlow
+      - MNbudgetyolo
+    description: Pancakes here are really good. 
+  RL024:
+    restaurant: Estia
+    address: https://www.estia.com.au/
+    rest_type: 
+      - MNdinner
+    food_type: 
+      - MNrecommendeddinner
+      - MNgreekdinner
+      - MNsharedinner
+      - MNbigdinmenu
+    number: 8353 2875
+    website: https://www.estia.com.au/
+    bookings: true
+    price: 
+      - MNbudgetmid
+      - MNbudgethigh
+      - MNbudgetyolo
+    description: Highly recommended to share. Can get a little pricey but food is really good.
+  RL025:
+    restaurant: Eggless
+    address: 162 Goodwood Rd, Goodwood SA 5034
+    rest_type: 
+      - MNdessert
+      - MNdrinks
+    food_type: 
+      - MNinstadessert
+      - MNcoffee
+      - MNasiandessert
+      - MNbasicdessert
+    number: 8272 0777
+    website: https://www.eggless.com.au/the-menu
+    bookings: false
+    price: 
+      - MNbudgetcheap
+      - MNbudgetyolo
+    description: Bookings recommended for over 6. Best dessert bar in Adelaide. Menu changes monthly. Vegan friendly.
+  RL026:
+    restaurant: Shibui Dessert Bar
+    address: 2/160 Grote St, Adelaide SA 5000
+    rest_type: 
+      - MNdrinks
+      - MNdessert
+    food_type: 
+      - MNinstadessert
+      - MNcoffee
+      - MNbasicdessert
+    number: N/A
+    website: https://www.shibuidessertbar.com.au/
+    bookings: true
+    price: 
+      - MNbudgetlow
+      - MNbudgetmid
+      - MNbudgetyolo
+    description: I think this place is overpriced. Desserts look pretty though.
+  RL027:
+    restaurant: Feather's Pavillion 
+    address: 516 Glynburn Rd, Burnside SA 5066
+    rest_type: 
+      - MNbrunch
+      - MNlunch
+      - MNdrinks
+    food_type: 
+      - MNbasicbrunch
+      - MNvarietybrunch
+      - MNbasiclunch
+      - MNdiffdrinks
+      - MNcoffee
+    number: 8249 7777
+    website: https://www.feathershotel.com.au/eat.php#pavilion
+    bookings: true
+    price: 
+      - MNbudgetlow
+      - MNbudgetmid
+      - MNbudgetyolo
+    description: Hotel-style restaurant that serves brunch and lunch. Average price, slightly above average food. 
+  RL028:
+    restaurant: U R Caffe
+    address: 117 Melbourne St, North Adelaide SA 5006
+    rest_type: 
+      - MNbreakfast
+      - MNbrunch
+      - MNdrinks
+    food_type: 
+      - MNcoffee
+      - MNdiffdrinks
+      - MNbasicbrekkie
+      - MN
+    number: 8267 3553
+    website: http://www.urcaffe.com/menu-4/
+    bookings: false
+    price: 
+      - MNbudgetlow
+      - MNbudgetyolo
+    description: 
+  RL029:
+    restaurant: Karma and Crow
+    address: 249-251 Richmond Rd, Richmond SA 5033
+    rest_type: 
+      - MNbreakfast
+      - MNbrunch
+      - MNdrinks
+    food_type: 
+      - MNbasicbrekkie
+      - MNinstabrekkie
+      - MNcheapbrekkie
+      - MNbasicbrunch
+      - MNarietybrunch
+      - MNcoffee
+    number: 8352 5104
+    website: https://karmaandcrow.com/
+    bookings: false
+    price: 
+      - MNbudgetlow
+      - MNbudgetmid
+      - MNbudgetyolo
+    description: Small cafe that's next to a market. Pretty presentation for food. 
+  RL030:
+    restaurant: Press* Food and Wine
+    address: 40 Waymouth St, Adelaide SA 5000
+    rest_type: 
+      - MNdinner
+    food_type: 
+      - MNrecommendeddinner
+      - MNsteakdinner
+      - MNmodernausdinner
+    number: 8211 8048
+    website: https://www.pressfoodandwine.com.au/eat
+    bookings: true
+    price: 
+      - MNbudgetmid
+      - MNbudgethigh
+      - MNbudgetyolo
+    description: AMAZING food.. kind of dark in here though.
+  RL031:
+    restaurant: Cam Wah
+    address: 33 Kilkenny Rd, Woodville Park SA 5011
+    rest_type: 
+      - MNlunch
+      - MNdinner
+    food_type: 
+      - MNchineselunch
+      - MNvietnameselunch
+      - MNvietnamesedinner
+      - MNchinesedinner
+      - MNbigdinmenu
+      - MNtakeawaydinner
+    number: 8445 2617
+    website: https://www.weekendnotes.com/cam-wah-restaurant/
+    bookings: false
+    price: 
+      - MNbudgetlow
+      - MNbudgetyolo
+    description: Small Chinese-Vietnamese restaurant with home-made food. Their duck noodle soup is my fave.
+  RL032:
+    restaurant: Exchange Speciality Coffee
+    address: 1-3/12-18 Vardon Ave, Adelaide SA 5000
+    rest_type: 
+      - MNbreakfast
+      - MNbrunch
+      - MNdrinks
+    food_type: 
+      - MNbasicbrekkie
+      - MNinstabrekkie
+      - MNbasicbrunch
+      - MNinstabrunch
+      - MNcoffee
+    number: 0415 966 225
+    website: http://exchangecoffee.com.au/
+    bookings: false
+    price: 
+      - MNbudgetlow
+      - MNbudgetmid
+      - MNbudgetyolo
+    description: This place is so hipster lmao. Great food.
+  RL033:
+    restaurant: The Bavarian
+    address: Level 1, Westfield Tea Tree Plaza, 976 North East Road, Modbury SA 5092
+    rest_type: 
+      - MNdinner
+    food_type: 
+      - MNpubdinner
+      - MNgermandinner
+      - MNbigdinmenu
+      - MNsharedinner
+    number: 7221 1699
+    website: https://www.thebavarians.com/venue/the-bavarian-tea-tree-plaza/
+    bookings: false
+    price: 
+      - MNbudgetmid
+      - MNbudgethigh
+      - MNbudgetyolo
+    description: Food is pretty bad to be honest but servings are huge. 
+  RL034:
+    restaurant: Ding Hao
+    address: 26 Gouger St, Adelaide SA 5000
+    rest_type: 
+      - MNlunch
+      - MNdinner
+    food_type: 
+      - MNrecommendeddinner
+      - MNchineselunch
+      - MNchinesedinner
+      - MNsharedinner
+      - MNbigdinmenu
+    number: 8211 7036
+    website: https://www.zomato.com/adelaide/ding-hao-restaurant-city-centre
+    bookings: true
+    price: 
+      - MNbudgetmid
+      - MNbudgethigh
+      - MNbudgetyolo
+    description: Seriously best yum cha in Adelaide. Come on a Sunday around 12-1pm for really good lunch experience.
+  RL035:
+    restaurant: Meetfresh
+    address: 61A Gouger St, Adelaide SA 5000
+    rest_type: 
+      - MNdrinks
+      - MNdessert
+    food_type: 
+      - MNasiandessert
+      - MNdiffdrinks
+    number: 8123 8503
+    website: https://www.zomato.com/adelaide/meet-fresh-city-centre/menu
+    bookings: false
+    price: 
+      - MNbudgetlow
+      - MNbudgetyolo
+    description: Asian dessert and bubble tea restaurant. They do 1L bubble tea!
+  RL036:
+    restaurant: Star of Siam
+    address: 67 Gouger St, Adelaide SA 5000
+    rest_type: 
+      - MNdinner
+    food_type: 
+      - MNrecommendeddinner
+      - MNthaidinner
+      - MNsharedinner
+      - MNbigdinmenu
+    number: 8231 3527
+    website: http://starofsiam-adelaide.com.au/
+    bookings: true
+    price: 
+      - MNbudgetmid
+      - MNbudgethigh
+      - MNbudgetyolo
+    description: Thai food. Recommended to share. This restaurant is fancy and pretty good but can get expensive.
+  RL037:
+    restaurant: Oporto
+    address: 196 Glynburn Rd, Tranmere SA 5073
+    rest_type: 
+      - MNbreakfast
+      - MNlunch
+      - MNdinner
+      - MNdessert
+    food_type: 
+      - MNbasicbrekkie
+      - MNcheapbrekkie
+      - MNfastfoodlunch
+      - MNbasiclunch
+      - MNfastfooddinner
+      - MNtakeawaydinner
+      - MNfastfooddessert
+    number: 8332 0073
+    website: https://www.oporto.com.au/menu/
+    bookings: false
+    price: 
+      - MNbudgetlow
+      - MNbudgetyolo
+    description: THE BEST FAST FOOD AND THE BEST FAST FOOD CHICKEN. WE STAN.
+  RL038:
+    restaurant: Bangkok Boulevard
+    address: 976 North East Road, Modbury SA 5092
+    rest_type: 
+      - MNdinner
+    food_type: 
+      - MNthaidinner
+      - MNrecommendeddinner
+      - MNsharedinner
+      - MNbigdinmenu
+    number: 0477 501 000
+    website: https://www.bangkokboulevard.com.au/
+    bookings: true
+    price: 
+      - MNbudgetmid
+      - MNbudgethigh
+      - MNbudgetyolo
+    description: Really good Thai food. Can get pricey. I recommend a rice/noodle dish and a few mains to share.
+  RL039:
+    restaurant: Nando's
+    address: google
+    rest_type: 
+      - MNlunch
+      - MNdinner
+    food_type: 
+      - MNfastfoodlunch
+      - MNbasiclunch
+      - MNfastfooddinner
+      - MNtakeawaydinner
+      - MNsharedinner
+    number: google
+    website: https://www.nandos.com.au/menu
+    bookings: false
+    price: 
+      - MNbudgetlow
+      - MNbudgetyolo
+    description: Flame-grilled chicken. They also do burgers, wraps, pitas and paella.
+  RL040:
+    restaurant: Social Street s2
+    address: 174A Hutt St, Adelaide SA 5000
+    rest_type: 
+      - MNdinner
+    food_type: 
+      - MNthaidinner
+      - MNsharedinner
+    number: 0451 166 576
+    website: https://www.socialstreets2.com/
+    bookings: true
+    price: 
+      - MNbudgetmid
+      - MNbudgetyolo
+    description: Thai food. Super small restaurant and small menu but food is really good. Recommended for sharing.
+  RL041:
+    restaurant: Bai Long Store
+    address: 80 Hutt St, Adelaide SA 5000
+    rest_type: 
+      - MNdinner
+      - MNdessert
+    food_type: 
+      - MNrecommendeddinner
+      - MNchinesedinner
+      - MNsharedinner
+      - MNasiandessert
+      - MNinstadessert
+    number: 8232 5484
+    website: https://www.bailong.store/menu-1
+    bookings: true
+    price: 
+      - MNbudgetmid
+      - MNbudgetyolo
+    description: An asian-fusion restaurant. Unusual and innovative. Great food. Sharing recommended.
+  RL042:
+    restaurant: Africola
+    address: 4 East Terrace, Adelaide SA 5000
+    rest_type: 
+      - MNdinner
+    food_type: 
+      - MNrecommendeddinner
+      - MNsteakdinner
+      - MNbigdinmenu
+      - MNsharedinner
+    number:  8223 3885
+    website: https://www.africola.com.au/
+    bookings: true
+    price: 
+      - MNbudgetmid
+      - MNbudgethigh
+      - MNbudgetyolo
+    description: South African restaurant. Steak is good.
+  RL043:
+    restaurant: Empress
+    address: 351 B26, Toorak Gardens SA 5065
+    rest_type: 
+      - MNlunch
+      - MNdinner
+    food_type: 
+      - MNchineselunch
+      - MNchinesedinner
+      - MNrecommended
+      - MNsharedinner
+      - MNbigdinmenu
+    number: 8333 1789
+    website: http://empressrestaurant.com.au/menu.php
+    bookings: true
+    price: 
+      - MNbudgetmid
+      - MNbudgethigh
+      - MNbudgetyolo
+    description: Chinese restaurant. Pretty typical but nice decor and food is good.
+  RL044:
+    restaurant: Golden Boy
+    address: 309 North Terrace, Adelaide SA 5000
+    rest_type: 
+      - MNdinner
+    food_type: 
+      - MNrecommendeddinner
+      - MNthaidinner
+      - MNsharedinner
+      - MNbigdinmenu
+    number: 8227 0799
+    website: https://golden-boy.com.au/
+    bookings: true
+    price: 
+      - MNbudgetmid
+      - MNbudgethigh
+      - MNbudgetyolo
+    description: Sharing recommended. Tuk-tuk menu is highly recommended for first-timers. Fantastic food.
+  RL045:
+    restaurant: Mai Kitchen
+    address: 1/5/34 Wright St, Ferryden Park SA 5010
+    rest_type: 
+      - MNlunch
+      - MNdinner
+      - MNdrinks
+    food_type: 
+      - MNdiffdrinks
+      - MNcoffee
+      - MNvietnameselunch
+      - MNrecommendeddinner
+      - MNtakeawaydinner
+      - MNbigdinmenu
+      - MNvietnamesedinner
+    number: 7226 6591
+    website: http://maikitchen.com.au/
+    bookings: true
+    price: 
+      - MNbudgetlow
+      - MNbudgetmid
+      - MNbudgetyolo
+    description: Really good Vietnamese restaurant with a big menu ranging from traditional Vietnamese to more modern. Vegan friendly.
+  RL046:
+    restaurant: Pho Hong Tam
+    address: 6/140 Grand Jct Rd, Rosewater SA 5013
+    rest_type: 
+      - MNlunch
+      - MNdinner
+    food_type: 
+      - MNvietnameselunch
+      - MNvietnamesedinner
+      - MNrecommendeddinner
+      - MNtakeawaydinner
+    number: 8447 7759
+    website: https://www.facebook.com/phohongtam
+    bookings: false
+    price: 
+      - MNbudgetlow
+      - MNbudgetyolo
+    description: Small homey Vietnamese restaurant. The Pho here is FANTASTIC.
+  RL047:
+    restaurant: Akimitsu
+    address: Shop 2/62-68 Hindley St, Adelaide SA 5000
+    rest_type: 
+      - MNlunch
+      - MNdinner
+    food_type: 
+      - MNjapaneselunch
+      - MNjapanesedinner
+    number: 8410 9620
+    website: https://www.akimitsu.com.au/
+    bookings: true
+    price: 
+      - MNbudgetlow
+      - MNbudgetmid
+      - MNbudgetyolo
+    description: Average Japanese restaurant. Get your own dish. The aburi salmon donburi is good!
+  RL048:
+    restaurant: Montezuma's (North Adelaide)
+    address: 134 Melbourne St, North Adelaide SA 5006
+    rest_type: 
+      - MNdinner
+    food_type: 
+      - MNmexicandinner
+    number: 8239 0949
+    website: https://www.montezumas.com.au/store/north-adelaide/
+    bookings: true
+    price: 
+      - MNbudgetmid
+      - MNbudgetyolo
+    description: Good Mexican restaurant with filling meals. Caters for vegans too.
+  RL049:
+    restaurant: Zapata's
+    address: 42 Melbourne St, North Adelaide SA 5006
+    rest_type: 
+      - MNdinner
+    food_type: 
+      - MNmexicandinner
+    number: 8267 4653
+    website: https://zapatas.com.au/
+    bookings: true
+    price: 
+      - MNbudgetmid
+      - MNbudgetyolo
+    description: Mexican restaurant. Similar to Montezuma's but takes itself more seriously.
+  RL050:
+    restaurant: Beach Bum
+    address: 406 Brighton Rd, Hove SA 5048
+    rest_type: 
+      - MNdinner
+    food_type: 
+      - MNjapanesedinner
+      - MNsharedinner
+    number: 8296 1447
+    website: https://www.beachbum.net.au/
+    bookings: true
+    price: 
+      - MNbudgetmid
+      - MNbudgethigh
+      - MNbudgetyolo
+    description: Hawaiian restaurant. Pretty good food. Sharing recommended but they also have tasting menus.
+  RL051:
+    restaurant: TUNO Izakaya
+    address: 4/145 O'Connell St, North Adelaide SA 5006
+    rest_type: 
+      - MNdinner
+      - MNlunch
+    food_type: 
+      - MNjapaneselunch
+      - MNjapanesedinner
+    number: 7073 8407
+    website: https://www.facebook.com/tunoizakaya/
+    bookings: true
+    price: 
+      - MNbudgetlow
+      - MNbudgetmid
+      - MNbudgetyolo
+    description: Blander ramen but less fatty than Ryo's. Also do skewers.
+  RL052:
+    restaurant: North Adelaide Burger Bar
+    address: 51 O'Connell St, North Adelaide SA 5006
+    rest_type: 
+      - MNlunch
+      - MNdinner
+    food_type: 
+      - MNbasiclunch
+      - MNgreekdinner
+      - MNpubdinner
+      - MNsharedinner
+      - MNtakeawaydinner
+      - MNbigdinmenu
+    number: 8267 2250
+    website: https://www.facebook.com/northadelaideburgerbar/
+    bookings: false
+    price: 
+      - MNbudgetlow
+      - MNbudgetyolo
+    description: Original AB. 
+  RL053:
+    restaurant: Level One @ Electra House
+    address: 131/135-139 King William St, Adelaide SA 5000
+    rest_type: 
+      - MNdinner
+    food_type: 
+      - MNjapanesedinner
+      - MNrecommended
+      - MNsharedinner
+    number: 7123 4055
+    website: https://electrahouse.com.au/electra-restaurant/level-one/
+    bookings: true
+    price: 
+      - MNbudgetmid
+      - MNbudgethigh
+      - MNbudgetyolo
+    description: Modern Japanese food. Really good and service is great which makes it fine dining.
+  RL054:
+    restaurant: Borsa Pasta Cucina
+    address: 1/25 Grenfell St, Adelaide SA 5000
+    rest_type: 
+      - MNdinner
+    food_type: 
+      - MNitaliandinner
+    number: 8211 6572
+    website: https://www.borsapastacucina.com/menu
+    bookings:
+    price: 
+      - MNbudgetmid
+      - MNbudgetyolo
+    description: In a little alley-way. They make their pasta in house. 
+  RL055:
+    restaurant: Godi La Vita
+    address: 162B King William Rd, Hyde Park SA 5061
+    rest_type: 
+      - MNdinner
+    food_type: 
+      - MNrecommendeddinner
+      - MNpizzadinner
+      - MNitaliandinner
+    number: 0405 280 777
+    website: https://www.godilavita.com.au/
+    bookings: true
+    price: 
+      - MNbudgetmid
+      - MNbudgetyolo
+    description: A cool experience. They cook the pasta in the cheese wheel and let you watch/record.
+  RL056:
+    restaurant: Ginza Miyako
+    address: Stamford Plaza Hotel, 150 North Terrace, Adelaide SA 5000
+    rest_type: 
+      - MNlunch
+      - MNdinner
+    food_type: 
+      - MNrecommendeddinner
+      - MNjapaneselunch
+      - MNjapanesedinner
+      - MNsharedinner
+    number: 8221 6147
+    website: https://www.ginzamiyako.com.au/
+    bookings: true
+    price: 
+      - MNbudgetmid
+      - MNbudgethigh
+      - MNbudgetyolo
+    description: French-Japanese fusion. Amazing food. Price reflects quality.
+  RL057:
+    restaurant: Lenzerheide
+    address: 146 Belair Rd, Hawthorn SA 5062
+    rest_type: 
+      - MNdinner
+    food_type: 
+      - MNrecommendeddinner
+      - MNmodernausdinner
+    number: 8373 3711
+    website: lenzerheide.com.au
+    bookings: true
+    price: 
+      - MNbudgethigh
+      - MNbudgetyolo
+    description: Such a fancy restaurant. Feels nice and tucked away. Food is really good too. 
+  RL058:
+    restaurant: Antica Pizzeria e Cucina
+    address: 226 Morphett St, Adelaide SA 5000
+    rest_type: 
+      - MNdinner
+    food_type: 
+      - MNitaliandinner
+      - MNpizzadinner
+      - MNsharefood
+      - MNbigdinmenu
+    number: 8212 3337
+    website: anticapizzeria.com.au
+    bookings: true
+    price: 
+      - MNbudgetmid
+      - MNbudgetyolo
+    description: They do 1m pizza. 
+  RL059:
+    restaurant: Wasai
+    address: 9/15 Field St, Adelaide SA 5000
+    rest_type: 
+      - MNdinner
+    food_type: 
+      - MNjapanesedinner
+    number: 8221 6606
+    website: https://www.facebook.com/wasaijapanese/
+    bookings: true
+    price: 
+      - MNbudgetmid
+      - MNbudgetyolo
+    description: Homey Japanese food. Sushi is good too.
+  RL060:
+    restaurant: Mimasu
+    address: 411 King William St, Adelaide SA 5000
+    rest_type: 
+      - MNdinner
+    food_type: 
+      - MNjapanesedinner
+      - MNsharedinner
+    number: 8410 5776
+    website: https://www.zomato.com/adelaide/mimasu-city-centre
+    bookings: true
+    price: 
+      - MNbudgetmid
+      - MNbudgethigh
+      - MNbudgetyolo
+    description: Cool experience and good food but portions are super small for the price.
+  RL061:
+    restaurant: Gaucho's Argentinian Restaurant
+    address: 91 Gouger St, Adelaide SA 5000
+    rest_type: 
+      - MNdinner
+    food_type: 
+      - MNsteakdinner
+      - MNbigdinmenu
+    number: 8231 2299
+    website: gauchos.com.au
+    bookings: true
+    price: 
+      - MNbudgethigh
+      - MNbudgetyolo
+    description: A lot of meat dishes, specialising in steaks. Very expensive.
+  RL062:
+    restaurant: Nordburger
+    address: 259 Port Rd, Hindmarsh SA 5007
+    rest_type: 
+      - MNlunch
+      - MNdinner
+    food_type: 
+      - MNbasiclunch
+      - MNtakeawaydinner
+      - MNpubdinner
+    number: N/A
+    website: https://www.nordburger.com/
+    bookings: false
+    price: 
+      - MNbudgetlow
+      - MNbudgetyolo
+    description: Burger joint. Their tator totts and shakes are really good.
+  RL063:
+    restaurant: Grill'd
+    address: 187 Rundle St, Adelaide SA 5000
+    rest_type: 
+      - MNlunch
+      - MNdinner
+    food_type: 
+      - MNbasiclunch
+      - MNtakeawaydinner
+      - MNpubdinner
+    number: 8223 3188
+    website: https://www.grilld.com.au/menu
+    bookings: false
+    price: 
+      - MNbudgetlow
+      - MNbudgetyolo
+    description: Pretty expensive for what they are. Burgers are average.
+  RL064:
+    restaurant: Betty's Burgers
+    address: 211/215 Rundle St, Adelaide SA 5000
+    rest_type: 
+      - MNlunch
+      - MNdinner
+    food_type: 
+      - MNbasiclunch
+      - MNtakeawaydinner
+      - MNpubdinner
+    number: 8223 1016
+    website: https://www.bettysburgers.com.au/
+    bookings: false
+    price: 
+      - MNbudgetlow
+      - MNbudgetyolo
+    description: Kind of expensive and burgers are small but it's pretty good. 
+  RL065:
+    restaurant: The Original Pancake Kitchen
+    address: 13 Gilbert Pl, Adelaide SA 5000
+    rest_type: 
+      - MNbreakfast
+      - MNbrunch
+      - MNdinner
+      - MNdessert
+    food_type: 
+      - MNbasicbrekkie
+      - MNbasiclunch
+      - MNbasicbrunch
+      - MNbigdinmenu
+    number: 8211 7912
+    website: http://theoriginalpancakekitchen.com.au/menu
+    bookings: false
+    price: 
+      - MNbudgetlow
+      - MNbudgetyolo
+    description: Open 24/7. Pancakes are not bad. Huge menu.
+  RL066:
+    restaurant: Lickerish
+    address: 26 Semaphore Rd, Semaphore SA 5019
+    rest_type: 
+      - MNdinner
+    food_type: 
+      - MNmodernausdinner
+      - MNpizzadinner
+      - MNsharedinner
+    number: 8242 5503
+    website: https://www.facebook.com/lickerishsemaphore/
+    bookings: true
+    price: 
+      - MNbudgetmid
+      - MNbudgetyolo
+    description: Really fantastic pizzas. Unusual twist on common mains but food is really good.
+  RL067:
+    restaurant: Tangritah Uyghur Restaurant
+    address: 100 Grote St, Adelaide SA 5000
+    rest_type: 
+      - MNdinner
+    food_type: 
+      - MNchinesedinner
+      - MNrecommendeddinner
+      - MNtakeawaydinner
+      - MNsharedinner
+    number: 8212 8681
+    website: https://www.zomato.com/adelaide/tangritah-uyghur-shish-kebabs-restaurant-city-centre
+    bookings: false
+    price: 
+      - MNbudgetmid
+      - MNbudgetyolo
+    description: THE SKEWERS ARE SO GOOD (minimum order of 4 though, which is fine because they are AMAZING).
+  RL068:
+    restaurant: Manna Coffee Shop
+    address:
+    rest_type: 
+      - 
+    food_type: 
+      -
+    number: 
+    website: 
+    bookings:
+    price: 
+      - 
+      - MNbudgetyolo
+    description: 
+  RL069:
+    restaurant: Kim's Asian Kitchen
+    address:
+    rest_type: 
+      - 
+    food_type: 
+      -
+    number: 
+    website: 
+    bookings:
+    price: 
+      - 
+      - MNbudgetyolo
+    description: 
+  RL070:
+    restaurant: Gyoza Guoza
+    address:
+    rest_type: 
+      - 
+    food_type: 
+      -
+    number: 
+    website: 
+    bookings:
+    price: 
+      - 
+      - MNbudgetyolo
+    description: 
+  RL071:
+    restaurant: Lazziz
+    address:
+    rest_type: 
+      - 
+    food_type: 
+      -
+    number: 
+    website: 
+    bookings:
+    price: 
+      - 
+      - MNbudgetyolo
+    description: 
+  RL072:
+    restaurant: Tay-Do
+    address:
+    rest_type: 
+      - 
+    food_type: 
+      -
+    number: 
+    website: 
+    bookings:
+    price: 
+      - 
+      - MNbudgetyolo
+    description: 
+  RL073:
+    restaurant: Mexican Society
+    address:
+    rest_type: 
+      - 
+    food_type: 
+      -
+    number: 
+    website: 
+    bookings:
+    price: 
+      - 
+      - MNbudgetyolo
+    description: 
+  RL074:
+    restaurant: NNQ
+    address:
+    rest_type: 
+      - 
+    food_type: 
+      -
+    number: 
+    website: 
+    bookings:
+    price: 
+      - 
+      - MNbudgetyolo
+    description: 
+  RL075:
+    restaurant: Fasta Pasta
+    address:
+    rest_type: 
+      - 
+    food_type: 
+      -
+    number: 
+    website: 
+    bookings:
+    price: 
+      - 
+      - MNbudgetyolo
+    description: 
+  RL076:
+    restaurant: Low & Slow American BBQ
+    address:
+    rest_type: 
+      - 
+    food_type: 
+      -
+    number: 
+    website: 
+    bookings:
+    price: 
+      - 
+      - MNbudgetyolo
+    description: 
+  RL077:
+    restaurant: Zambrero
+    address:
+    rest_type: 
+      - 
+    food_type: 
+      -
+    number: 
+    website: 
+    bookings:
+    price: 
+      - 
+      - MNbudgetyolo
+    description: 
+  RL078:
+    restaurant: 50sixone
+    address:
+    rest_type: 
+      - 
+    food_type: 
+      -
+    number: 
+    website: 
+    bookings:
+    price: 
+      - 
+      - MNbudgetyolo
+    description: 
+  RL079:
+    restaurant: 
+    address:
+    rest_type: 
+      - 
+    food_type: 
+      -
+    number: 
+    website: 
+    bookings:
+    price: 
+      - 
+      - MNbudgetyolo
+    description: 
+  RL080:
+    restaurant: 
+    address:
+    rest_type: 
+      - 
+    food_type: 
+      -
+    number: 
+    website: 
+    bookings:
+    price: 
+      - 
+      - MNbudgetyolo
+    description: 
+  RL081:
+    restaurant: 
+    address:
+    rest_type: 
+      - 
+    food_type: 
+      -
+    number: 
+    website: 
+    bookings:
+    price: 
+      - 
+      - MNbudgetyolo
+    description: 
+  RL082:
+    restaurant: 
+    address:
+    rest_type: 
+      - 
+    food_type: 
+      -
+    number: 
+    website: 
+    bookings:
+    price: 
+      - 
+      - MNbudgetyolo
+    description: 
+  RL083:
+    restaurant: 
+    address:
+    rest_type: 
+      - 
+    food_type: 
+      -
+    number: 
+    website: 
+    bookings:
+    price: 
+      - 
+      - MNbudgetyolo
+    description: 
+  RL084:
+    restaurant: 
+    address:
+    rest_type: 
+      - 
+    food_type: 
+      -
+    number: 
+    website: 
+    bookings:
+    price: 
+      - 
+      - MNbudgetyolo
+    description: 
+  RL085:
+    restaurant: 
+    address:
+    rest_type: 
+      - 
+    food_type: 
+      -
+    number: 
+    website: 
+    bookings:
+    price: 
+      - 
+      - MNbudgetyolo
+    description: 
+  RL086:
+    restaurant: 
+    address:
+    rest_type: 
+      - 
+    food_type: 
+      -
+    number: 
+    website: 
+    bookings:
+    price: 
+      - 
+      - MNbudgetyolo
+    description: 
+  RL087:
+    restaurant: 
+    address:
+    rest_type: 
+      - 
+    food_type: 
+      -
+    number: 
+    website: 
+    bookings:
+    price: 
+      - 
+      - MNbudgetyolo
+    description: 
+  RL088:
+    restaurant: 
+    address:
+    rest_type: 
+      - 
+    food_type: 
+      -
+    number: 
+    website: 
+    bookings:
+    price: 
+      - 
+      - MNbudgetyolo
+    description: 
+  RL089:
+    restaurant: 
+    address:
+    rest_type: 
+      - 
+    food_type: 
+      -
+    number: 
+    website: 
+    bookings:
+    price: 
+      - 
+      - MNbudgetyolo
+    description: 
+  RL090:
+    restaurant: 
+    address:
+    rest_type: 
+      - 
+    food_type: 
+      -
+    number: 
+    website: 
+    bookings:
+    price: 
+      - 
+      - MNbudgetyolo
+    description: 
+  RL091:
+    restaurant: 
+    address:
+    rest_type: 
+      - 
+    food_type: 
+      -
+    number: 
+    website: 
+    bookings:
+    price: 
+      - 
+      - MNbudgetyolo
+    description: 
+  RL092:
+    restaurant: 
+    address:
+    rest_type: 
+      - 
+    food_type: 
+      -
+    number: 
+    website: 
+    bookings:
+    price: 
+      - 
+      - MNbudgetyolo
+    description: 
+  RL093:
+    restaurant: 
+    address:
+    rest_type: 
+      - 
+    food_type: 
+      -
+    number: 
+    website: 
+    bookings:
+    price: 
+      - 
+      - MNbudgetyolo
+    description: 
+  RL094:
+    restaurant: 
+    address:
+    rest_type: 
+      - 
+    food_type: 
+      -
+    number: 
+    website: 
+    bookings:
+    price: 
+      - 
+      - MNbudgetyolo
+    description: 
+  RL095:
+    restaurant: 
+    address:
+    rest_type: 
+      - 
+    food_type: 
+      -
+    number: 
+    website: 
+    bookings:
+    price: 
+      - 
+      - MNbudgetyolo
+    description: 
+  RL096:
+    restaurant: 
+    address:
+    rest_type: 
+      - 
+    food_type: 
+      -
+    number: 
+    website: 
+    bookings:
+    price: 
+      - 
+      - MNbudgetyolo
+    description: 
+  RL097:
+    restaurant: 
+    address:
+    rest_type: 
+      - 
+    food_type: 
+      -
+    number: 
+    website: 
+    bookings:
+    price: 
+      - 
+      - MNbudgetyolo
+    description: 
+  RL098:
+    restaurant: 
+    address:
+    rest_type: 
+      - 
+    food_type: 
+      -
+    number: 
+    website: 
+    bookings:
+    price: 
+      - 
+      - MNbudgetyolo
+    description: 
+  RL099:
+    restaurant: 
+    address:
+    rest_type: 
+      - 
+    food_type: 
+      -
+    number: 
+    website: 
+    bookings:
+    price: 
+      - 
+      - MNbudgetyolo
+    description: 
+---

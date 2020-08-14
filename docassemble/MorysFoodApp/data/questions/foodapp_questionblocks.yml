@@ -1,0 +1,109 @@
+#Question blocks
+---
+# This is the eligibility question block, depending on the first question, it will lead to one or another
+question: Vibe Check
+fields:
+  - Are you looking to eat in Adelaide?: MNvibecheck
+    datatype: radio
+    choices:
+      - Yes
+      - No
+---
+# This is a question block about type of food you want
+question: Restaurant type
+fields:
+  - What's your budget?: MNbudget
+    choices: 
+      - Cheap (under $20): MNbudgetlow
+      - Mid-range ($20 to $40pp): MNbudgetmid
+      - Expensive ($40+): MNbudgethigh
+      - Don't care: MNbudgetyolo
+
+  - When are you eating?: MNwhentoeat
+    choices:
+      - Breakfast: MNbreakfast
+      - Brunch: MNbrunch
+      - Lunch: MNlunch
+      - Dinner: MNdinner
+      - Dessert: MNdessert
+      - Drinks: MNdrinks
+      
+  - What do you feel like?: MNsubmatter
+    show if: 
+     variable: MNwhentoeat
+     is: MNbreakfast
+    choices: 
+      - Basic: MNbasicbrekkie
+      - Variety: MNvarietybrekkie
+      - Instaworthy: MNinstabrekkie
+      - Cheap: MNcheapbrekkie
+
+  - What do you feel like?: MNsubmatter
+    show if: 
+     variable: MNwhentoeat
+     is: MNbrunch
+    choices: 
+      - Basic: MNbasicbrunch
+      - Variety: MNvarietybrunch
+      - Instaworthy: MNinstabrunch
+      - Cheap: MNcheapbrunch
+
+  - What do you feel like?: MNsubmatter
+    show if: 
+     variable: MNwhentoeat
+     is: MNlunch
+    choices: 
+      - Italian: MNitalianlunch
+      - Malaysian/Singaporean: MNmalaysinglunch
+      - Japanese: MNjapaneselunch
+      - Korean: MNkoreanlunch
+      - Fast food: MNfastfoodlunch
+      - Chinese: MNchineselunch
+      - Vietnamese: MNvietnameselunch
+      - Basics: MNbasiclunch
+      
+  - What do you feel like?: MNsubmatter
+    show if: 
+     variable: MNwhentoeat
+     is: MNdinner
+    choices: 
+      - Recommended: MNrecommendeddinner
+      - Italian: MNitaliandinner
+      - Malaysian/Singaporean: MNmalaysingdinner
+      - Japanese: MNjapanesedinner
+      - Chinese: MNchinesedinner
+      - Greek: MNgreekdinner
+      - German: MNgermandinner
+      - Mexican: MNmexicandinner
+      - Vietnamese: MNvietnamesedinner
+      - Korean: MNkoreandinner
+      - Thai: MNthaidinner
+      - Modern Australian: MNmodernausdinner
+      - Steak: MNsteakdinner
+      - Pub food: MNpubdinner
+      - Pizza: MNpizzadinner
+      - Fast food: MNfastfooddinner
+      - Share food: MNsharedinner
+      - Big menu: MNbigdinmenu
+      - Take-away: MNtakeawaydinner
+      
+  - What do you feel like?: MNsubmatter
+    show if: 
+     variable: MNwhentoeat
+     is: MNdessert
+    choices: 
+      - Fast food: MNfastfooddessert
+      - Instaworthy: MNinstadessert
+      - Asian dessert: MNasiandessert
+      - Basic dessert: MNbasicdessert
+      - Ice-cream: MNicecream
+
+  - What do you feel like?: MNsubmatter
+    show if: 
+     variable: MNwhentoeat
+     is: MNdrinks
+    choices: 
+      - Coffee: MNcoffee
+      - Lots of different drinks: MNdiffdrinks
+      - Instaworthy: MNinstadrinks
+---

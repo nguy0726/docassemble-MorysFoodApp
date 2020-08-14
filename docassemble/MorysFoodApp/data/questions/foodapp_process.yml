@@ -1,0 +1,31 @@
+---
+objects: 
+  - MNresttype_list: DAList.using(auto_gather=False)
+  - MNfoodtype_list: DAList.using(auto_gather=False)
+  - MNprice_list: DAList.using(auto_gather=False)
+---
+# Get a list of food based on type of restaurant 
+code: |
+  MNresttype_list.clear()
+  for MNkey in MNrestaurantdict:
+    MNitem = MNrestaurantdict[MNkey]
+    if MNwhentoeat in MNitem['rest_type']:
+      MNresttype_list.append(MNitem)
+  MNresttype_list.gathered = True
+---
+# Get list of food based on food type
+code: |
+  MNfoodtype_list.clear()
+  for MNitem in MNresttype_list:
+    if MNsubmatter in MNitem['food_type']:
+      MNfoodtype_list.append(MNitem)
+  MNfoodtype_list.gathered = True
+---
+# Get list based on price
+code: |
+  MNprice_list.clear()
+  for MNitem in MNfoodtype_list:
+    if MNbudget in MNitem['price']:
+      MNprice_list.append(MNitem) 
+  MNprice_list.gathered = True
+---
